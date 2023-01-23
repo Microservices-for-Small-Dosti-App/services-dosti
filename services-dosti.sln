@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{906DF3E7-609D-4E58-A64A-B8CCAA7D1275}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{5EDE5B62-178F-4661-BCCA-B57617012A4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{888F7504-0378-4089-8A4E-0D46CEC37D3F}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Images\B.txt = Documentation\Images\B.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanCollections", "PostmanCollections", "{BC12BF90-D1C2-411D-92B6-C46A50432E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F671A2BC-BFB6-4D31-B458-F0F385376F16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BD96ED11-FDD4-49FB-82A9-9205078EBDF1}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\A.txt = Tests\A.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{888F7504-0378-4089-8A4E-0D46CEC37D3F} = {5EDE5B62-178F-4661-BCCA-B57617012A4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36F09255-D025-4A37-BB6A-4044718D9C39}
