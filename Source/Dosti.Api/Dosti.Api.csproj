@@ -16,4 +16,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dosti.Persistence\Dosti.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
