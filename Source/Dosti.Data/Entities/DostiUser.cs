@@ -2,5 +2,7 @@
 
 public class DostiUser : BaseEntity
 {
-    public string? KnownAs { get; set; }
+    public string UserName { get; set; } = string.Empty;
+
+    public string KnownAs { get; set; } = string.Empty;
 }
