@@ -22,4 +22,13 @@ public class UsersController : BaseApiController
         return await _dostiDbContext.Users.ToListAsync();
     }
 
+    [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<ActionResult<DostiUser>> GetUserById(Guid id)
+    {
+        return await _dostiDbContext.Users.FindAsync(id) is DostiUser user ? Ok(user) : NotFound();
+    }
+
 }
