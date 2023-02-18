@@ -1,16 +1,13 @@
 ﻿using Dosti.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Dosti.Persistence
+namespace Dosti.Persistence;
+
+public class DostiDbContext : DbContext
 {
+    public DbSet<DostiUser> Users => Set<DostiUser>();
 
-    public class DostiDbContext : DbContext
+    public DostiDbContext(DbContextOptions<DostiDbContext> options) : base(options)
     {
-        public DbSet<DostiUser> Users => Set<DostiUser>();
-
-        public DostiDbContext(DbContextOptions<DostiDbContext> options) : base(options)
-        {
-        }
     }
-
 }
