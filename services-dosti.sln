@@ -26,21 +26,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BD96ED11
 		Tests\A.txt = Tests\A.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Api", "Source\Dosti.Api\Dosti.Api.csproj", "{2FB80D57-FE60-4701-8054-3AC23C2539D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Api", "Source\Dosti.Api\Dosti.Api.csproj", "{2FB80D57-FE60-4701-8054-3AC23C2539D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.ApplicationCore", "Source\Dosti.ApplicationCore\Dosti.ApplicationCore.csproj", "{D5B07138-C6B6-4AC7-9031-519E22B22F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.ApplicationCore", "Source\Dosti.ApplicationCore\Dosti.ApplicationCore.csproj", "{D5B07138-C6B6-4AC7-9031-519E22B22F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Business", "Source\Dosti.Business\Dosti.Business.csproj", "{886ACD7B-C5E0-49DF-8E79-EEAEBA587A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Business", "Source\Dosti.Business\Dosti.Business.csproj", "{886ACD7B-C5E0-49DF-8E79-EEAEBA587A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Configuration", "Source\Dosti.Configuration\Dosti.Configuration.csproj", "{624FB5AA-327F-4812-BE66-8D9AE83F3C91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Configuration", "Source\Dosti.Configuration\Dosti.Configuration.csproj", "{624FB5AA-327F-4812-BE66-8D9AE83F3C91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Data", "Source\Dosti.Data\Dosti.Data.csproj", "{52968A3A-514A-4EA4-A1B8-C3076F9AFC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Data", "Source\Dosti.Data\Dosti.Data.csproj", "{52968A3A-514A-4EA4-A1B8-C3076F9AFC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Dependencies", "Source\Dosti.Dependencies\Dosti.Dependencies.csproj", "{AD94FD4E-AFA0-476C-AB96-3935427C0B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Dependencies", "Source\Dosti.Dependencies\Dosti.Dependencies.csproj", "{AD94FD4E-AFA0-476C-AB96-3935427C0B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Persistence", "Source\Dosti.Persistence\Dosti.Persistence.csproj", "{9438CE91-ED1D-4B5B-9815-6A93BE8847A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Persistence", "Source\Dosti.Persistence\Dosti.Persistence.csproj", "{9438CE91-ED1D-4B5B-9815-6A93BE8847A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dosti.Repositories", "Source\Dosti.Repositories\Dosti.Repositories.csproj", "{EAB36645-2E40-4B3C-B83E-C77E089229EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dosti.Repositories", "Source\Dosti.Repositories\Dosti.Repositories.csproj", "{EAB36645-2E40-4B3C-B83E-C77E089229EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScripts", "SQLScripts", "{9E62668D-2D5D-48E0-8055-E52025A9685E}"
+	ProjectSection(SolutionItems) = preProject
+		SQLScripts\dbo.Users.data.sql = SQLScripts\dbo.Users.data.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
