@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -17,6 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Using Include="Dosti.ApplicationCore.Common.Constants" Static="true" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Dosti.ApplicationCore\Dosti.ApplicationCore.csproj" />
     <ProjectReference Include="..\Dosti.Persistence\Dosti.Persistence.csproj" />
   </ItemGroup>
 

@@ -9,11 +9,11 @@ public static class DependentServicesExtensions
     {
         _ = services.AddControllers();
 
-        var config = services.BuildServiceProvider().GetService<IConfiguration>();
+        var configuration = services.BuildServiceProvider().GetService<IConfiguration>();
 
         _ = services.AddDbContext<DostiDbContext>(options =>
         {
-            _ = options.UseSqlServer(config?.GetConnectionString("DefaultConnection"));
+            _ = options.UseSqlServer(configuration?.GetConnectionString(ConnectionStrings.DefaultConnection));
         });
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
