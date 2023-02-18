@@ -16,11 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Using Include="Dosti.ApplicationCore.Common.Constants" Static="true" />
   </ItemGroup>
   
